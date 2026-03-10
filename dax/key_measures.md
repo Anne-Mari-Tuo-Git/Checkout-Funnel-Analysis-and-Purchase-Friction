@@ -5,7 +5,8 @@ Advanced analytical measures designed to evaluate checkout funnel performance, d
 ---
 
 ## 🔵 1. Overall Conversion Rate (CR)
-Business Logic
+
+### Business Logic
 
 The primary North Star metric for the project. It evaluates funnel efficiency by calculating the ratio of successful transactions to sessions with add-to-cart events.
 
@@ -18,7 +19,7 @@ DIVIDE (
 ```
 ---
 
-## 🟢 1. Step-by-Step Conversion Analysis
+## 🟢 2. Step-by-Step Conversion Analysis
 
 ### Business Logic
 This advanced measure uses variables (`VAR`) and context manipulation to calculate the retention rate between consecutive stages of the checkout funnel.
@@ -47,9 +48,10 @@ IF (
     DIVIDE ( UsuariosPasoActual, UsuariosPasoAnterior )
 )
 ```
+---
 
 
-## 🔴 2. Dynamic Top Friction Point Identification
+## 🔴3. Dynamic Top Friction Point Identification
 
 ### Business Logic
 A diagnostic measure designed to automatically scan the entire checkout process and identify the stage with the highest drop-off rate.
@@ -64,16 +66,6 @@ MAXX (
     [Drop-off by Checkout Step]
 )
 
+```
 ---
 
-🔵 3. Overall Conversion Rate (CR)
-Business Logic
-
-The primary North Star metric for the project. It evaluates funnel efficiency by calculating the ratio of successful transactions to sessions with add-to-cart events.
-
-```DAX
-Conversion Rate = 
-DIVIDE (
-    [Sales Transactions],
-    [Sessions with Add-to-Cart]
-)
