@@ -70,3 +70,5 @@ users: Connected via user_id to track unique purchaser behavior.
 
 Relationships: Established a One-to-Many (*:1) relationship between the events and the item catalog, enabling granular revenue analysis.
 
+![Screenshot Model View](https://github.com/user-attachments/assets/975942ce-8d66-4a3d-9db7-9b2900ba1bbf)
+
