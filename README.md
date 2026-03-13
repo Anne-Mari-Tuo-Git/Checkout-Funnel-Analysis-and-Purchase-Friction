@@ -73,6 +73,26 @@ Relationships: Established a One-to-Many (*:1) relationship between the events a
 ![Screenshot de la aplicación](capturas/Screenshot-Model-View.JPG)
 
 ---
+## Dashboard Overview
+
+![Screenshot de la aplicación](capturas/Screenshot-Overview.JPG)
+
+## Insights
+
+The dataset contains 4,066 unique purchasers and 4.4K transactions.
+The overall conversion rate is 24.6% from add-to-cart to purchase.
+Sales activity peaked in December 2020, suggesting strong holiday demand.
+
+![Screenshot de la aplicación](capturas/Screenshot-Checkout-behav.JPG)
+
+## Insights
+
+The largest drop-off occurs between Add-to-Cart and Checkout (~49%).
+Only 51% of users who add items to the cart proceed to checkout.
+Once users reach checkout, 63% complete the purchase, indicating relatively strong checkout completion.
+
+
+
 
 ## :bulb: Key Findings
 
